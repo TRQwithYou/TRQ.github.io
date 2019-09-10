@@ -8,7 +8,7 @@ Size: 117922
 MD5sum: 9e3a11e7bc65b5f22ade57ddef038f6d
 SHA1: 252b653d4a28e1a22784534a4a1b04d131678a1b
 SHA256: a267e51d82d254757d157b807be8857a7fd7c010af76171c33f3bf273844a70d
-Section: safe
+Section: Tweaks
 Description: Anti Ban PUBG
 Author: @TRQ
 Depiction: https://TRQ.github.io/depictions/?p= com.TRQAnti.pubg
