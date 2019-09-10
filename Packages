@@ -1,0 +1,15 @@
+Package: com.TRQAnti.pubg
+Version: 0.1.0
+Architecture: iphoneos-arm
+Installed-Size: 588
+Depends: mobilesubstrate
+Filename: ./debs/com.TRQAnti.pubg.deb
+Size: 117922
+MD5sum: c5d30e1b10177190ee56eecf5dbb5cfe
+SHA1: 377d5c59926083b2acdd95028abe24edfeba6141
+SHA256: fcb97af34c56d4a2bd67540df0427cb0cbd9b68e4c4e78f555265c3db1e2b67e
+Section: safe
+Description: Anti Ban PUBG
+Author: @TRQ
+Depiction: https://TRQ.github.io/depictions/?p= com.TRQAnti.pubg
+Name: حماية ببجي تجريبي
