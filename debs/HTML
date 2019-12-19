@@ -1,0 +1,42 @@
+<!-- Created by RaymondAndre -->
+
+<!-- Created by Sadegh Salari-->
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Sign in & Sign up</title>
+	</head>
+	<body>
+		<div class="card" id="signup">
+			<h1>Sign Up</h1>
+			<form>
+				<input type="text" name="name" placeholder="Name" id="name">
+				<input type="text" name="username" placeholder="Username" id="username" min="5">
+				<input type="password" name="password" placeholder="Password" id="password" min="5">
+				<input type="button" class="btn" value="Sign Up" onclick=signup();>
+			</form>
+		</div>
+		
+		
+		<div class="card" id="signin">
+			<h1>Sign In</h1>
+			<form>
+				<input type="text" placeholder="Username" id="username1" >
+				<input type="password" placeholder="Password" id="password1">
+				
+				<input type="button" class="btn" value="Sign in" onclick=success();>
+				<input type="button" class="btn-back" value="Go Back" id="back" onclick=goBack();>
+			</form>
+		</div>
+		
+		<div class="card" id="instagramLink">
+ <h2> You Create your Account </h2>
+ 
+ <h4> Vote this code if you enjoy</h4>
+ <a href="https:\\www.instagram.com/mrweb.ir">
+<button class="btn">click and follow</button>
+			</a>
+		</div>
+	</body>
+</html>
