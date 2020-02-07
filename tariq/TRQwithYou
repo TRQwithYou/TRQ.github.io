@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Page Title</title>
+		
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	</head>
+	<body>
+	
+	<div onclick="closeMenu()" class="close">
+		 <i class="material-icons">close</i>
+	</div>
+	
+	<div class="drop">
+	
+	<div class="item active">
+		 <i class="material-icons">home</i>
+	</div>
+	
+	<div class="item">
+		<i class="material-icons">JS</i>
+	</div>
+	
+	<div class="item">
+		<i class="material-icons">CSS</i>
+	</div>
+	
+	<div class="item">
+		  <i class="material-icons">info</i>
+	</div>
+		
+	</div>
+	
+	
+	<div onclick="openMenu()" class="menu">
+		<i class="material-icons">menu</i>
+	</div>
+	
+	<div class="name">
+		Elements
+	</div>
+	
+	<div class="link">
+	
+	<p>
+		&ltlink rel="stylesheet" href="https://soft-ui.web.app/soft-ui.css"> 
+
+	</p>
+	
+	  
+		<button class="copy" onclick='copyToClipboard(textToCopy)'>
+		
+		Copy
+		</button>
+	</div>
+	
+	<br/>
+	  <div class="slider">
+			
+			
+			<div class="buttons">
+			
+			<button onclick="slide(this)">
+				Button
+			</button>
+			
+			<button onclick="slide(this)">
+				Card
+			</button>
+			
+			<button onclick="slide(this)">
+				Form
+			</button>
+			
+			<button onclick="slide(this)">
+				Inputs
+			</button>
+			
+			<button onclick="slide(this)">
+				Checkboxes
+			</button>
+			
+			<button onclick="slide(this)">
+				Radio
+			</button>
+			
+			<button onclick="slide(this)">
+				Collections
+			</button>
+			
+			<button onclick="slide(this)">
+				Range
+			</button>
+				
+			</div>
+			
+			
+			
+			
+			<div class="pages">
+			
+			<div class="page">
+				
+				
+				<h3>
+					Buttons
+				</h3>
+				
+				<button class="soft-ui-btn">
+		   Button
+	   </button> 
+	   
+	   <div class="code">
+	   <code>
+	   <pre>
+	   &#60;button class="soft-ui-btn"&#62;
+	   
+		 Button
+		 
+	   &#60;/button&#62;
+	   </pre>
+	   </code>
+	   
+		   
+	   </div>
+				
+			</div>
+			
+			<div class="page">
+			
+			<h3>Cards</h3>
+			
+				<div class="soft-ui-card">
+	 
+	 <img src="https://cdn.pixabay.com/photo/2018/10/05/10/56/landscape-3725657_1280.jpg"/>
+	 
+	 <p class="soft-ui-text">
+		 Text to read
+	 </p>
+		 
+		 <div class="soft-ui-btn-group">
+		 
+		<button class="soft-ui-btn">
+		   Button
+	   </button> 
+	   
+	   <button class="soft-ui-btn">
+		   Button
+	   </button>  
+	   
+		<button class="soft-ui-btn">
+		   Button
+	   </button> 
+	   
+		 </div>
+		 
+	 </div>
+	 
+	 
+	 
+	 <div class="code">
+	   <code>
+	   <pre>
+	   &#60;div class="soft-ui-card"&#62; 
+	   
+	   &#60;img src="https://cdn.pixabay.com/photo/2018/10/05/10/56/landscape-3725657_1280.jpg"/&#62;
+	   
+		&#60;p class="soft-ui-text"&#62;
+		
+		 Text to read 
+		 
+		 &#60;/p&#62; 
+		 
+		 &#60;div class="soft-ui-btn-group"&#62;
+		 
+		   &#60;button class="soft-ui-btn"&#62;
+			Button 
+		   &#60;/button&#62;
+		  
+		   &#60;button class="soft-ui-btn"&#62;
+			Button 
+		   &#60;/button&#62;
+		   
+		   &#60;button class="soft-ui-btn"&#62;
+			Button 
+		   &#60;/button&#62; 
+		   
+		  &#60;/div&#62;
+	  
+	   &#60;/div&#62;
+	   </pre>
+	   </code>
+	   
+		   
+	   </div>
+	 
+	 
+			</div>
+			
+			<div class="page">
+				Not ready yet
+			</div>
+			
+			<div class="page">
+			<h3>
+				Inputs
+			</h3>
+				<input class="soft-ui-input"/>
+	 
+	 <div class="code">
+		 <code>
+			 <pre>
+  &lt;input class="soft-ui-input"/> 
+			 </pre>
+		 </code>
+	 </div>
+	 
+			</div>
+			
+			<div class="page">
+			<h3>
+				Checkboxes
+			</h3>
+				 <input class="soft-ui-checkbox" type="checkbox"/>
+	 
+	 <div class="code">
+	 
+	 <code>
+		 <pre>
+ &lt;input class="soft-ui-checkbox" type="checkbox"/>	
+		 </pre>
+	 </code>
+		 
+	 </div>
+	 
+			</div>
+			
+			<div class="page">
+			
+			<h3>
+				Radio
+			</h3>
+				   <input name="soft-ui" class="soft-ui-radio" type="radio"/>
+	 
+		 <input name="soft-ui" class="soft-ui-radio" type="radio"/>
+		 
+		 
+		 <div class="code">
+	 
+	 <code>
+		 <pre>
+ &lt;input name="soft-ui" class="soft-ui-radio" type="radio"/>   
+		 </pre>
+	 </code>
+		 
+	 </div>
+			</div>
+			
+			<div class="page">
+				Not ready yet
+			</div>
+			
+			<div class="page">
+			<h3>Range</h3>
+			<input class="soft-ui-range" type="range" value="0" min="0" max="100"/>
+			<div class="code">
+				<code>
+					<pre>
+ &lt;input class="soft-ui-range" type="range" value="0" min="0" max="100"/> 
+					</pre>
+				</code>
+			</div>
+			</div>
+			
+			</div>
+			
+			
+		</div>
+		
+		
+		   
+		
+		
+	</body>
+</html>
