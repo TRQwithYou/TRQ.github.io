@@ -67,10 +67,10 @@ body {
 }
 
 .active:after {
-  content: "\2212";
+  content2: "\2212";
 }
 
-button.collapsible2 {
+button2.collapsible2 {
   position: -webkit-sticky;
   position: sticky;
   top: 0;
@@ -78,7 +78,7 @@ button.collapsible2 {
   font-weight : bold;
 }
 
-.content {
+.content2 {
   padding: 0 10px;
   max-height: 0;
   overflow: hidden;
