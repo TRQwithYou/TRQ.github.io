@@ -59,7 +59,7 @@ body {
 }
 
 .collapsible2:after {
-  content: '\002B';
+  content2: '\002B';
   color: white;
   font-weight: bold;
   float: right;
