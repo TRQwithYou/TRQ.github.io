@@ -34,7 +34,7 @@ body {
    color: blue !important;
 }
 
-.collapsible {
+.collapsible2 {
   background-color: DodgerBlue;
   color: white;
   cursor: pointer;
@@ -58,7 +58,7 @@ body {
   
 }
 
-.collapsible:after {
+.collapsible2:after {
   content: '\002B';
   color: white;
   font-weight: bold;
@@ -70,7 +70,7 @@ body {
   content: "\2212";
 }
 
-button.collapsible {
+button.collapsible2 {
   position: -webkit-sticky;
   position: sticky;
   top: 0;
@@ -101,7 +101,7 @@ p {
 	font-size:16px;
 	padding:2px;
 }
-.collapsible
+.collapsible2
 {
 	border-radius:10px;
 	font-family:Times New Roman;
@@ -112,5 +112,5 @@ li {
 	font-size:16px;
 }
 
- .collapsible {background-image: linear-gradient(to right, #1D4350 0%, #A43931 51%, #1D4350 100%)}
-.collapsible:hover { background-position: right center; } 
+ .collapsible2 {background-image: linear-gradient(to right, #1D4350 0%, #A43931 51%, #1D4350 100%)}
+.collapsible2:hover { background-position: right center; } 
