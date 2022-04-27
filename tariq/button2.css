@@ -59,7 +59,7 @@ body {
 }
 
 .collapsible2:after {
-  content2: '\002B';
+  content: '\002B';
   color: white;
   font-weight: bold;
   float: right;
@@ -67,7 +67,7 @@ body {
 }
 
 .active:after {
-  content2: "\2212";
+  content: "\2212";
 }
 
 button2.collapsible2 {
@@ -78,7 +78,7 @@ button2.collapsible2 {
   font-weight : bold;
 }
 
-.content2 {
+.content {
   padding: 0 10px;
   max-height: 0;
   overflow: hidden;
